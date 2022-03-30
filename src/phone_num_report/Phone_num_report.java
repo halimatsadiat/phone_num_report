@@ -34,10 +34,7 @@ public class Phone_num_report {
     	     String Globacom[] = new String[]{"0705","0805","0807","0811","0815","0905","0915"};
     	     String NineMobile [] = new String[]{"0809","0817","0818","0909","0908"};
     	     String Mtel = "0804";
-    	     
-    	     if(Arrays.stream(MTN).anyMatch("hell"::equals)){
-    	         System.out.println("There was a match!!!");
-    	     }
+             
 	
 	        try {
 	            
